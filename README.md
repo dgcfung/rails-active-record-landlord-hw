@@ -10,9 +10,7 @@ Create a new rails api project called landlord with a postgresql database skippi
 rails new landlord --api --skip-git -d postgresql --skip-test
 ```
 
-Change directories into the Rails app.
-
-Create the database:
+Inside this new directory, create the database:
 
 ```shell
 rails db:create
